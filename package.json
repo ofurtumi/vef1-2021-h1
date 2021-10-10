@@ -1,0 +1,27 @@
+{
+  "name": "vef1-2021-h1",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass ./styles/main.scss ./styles/main.css",
+    "sass-watch": "sass --watch ./styles/main.scss ./styles/main.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofurtumi/vef1-2021-h1.git"
+  },
+  "author": "Tumi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofurtumi/vef1-2021-h1/issues"
+  },
+  "homepage": "https://github.com/ofurtumi/vef1-2021-h1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.3.0",
+    "sass": "^1.42.1"
+  }
+}
