@@ -65,8 +65,68 @@ h1 {
   font-size: 2.25em;
 }
 
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: linear-gradient(#646464, #646464), url("../images/Background.png");
+  background-blend-mode: lighten;
+  background-size: cover;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5em;
+}
+header .efst {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+header .efst .logo {
+  display: flex;
+  align-items: center;
+}
+header .efst .logo p {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+header .efst .shopping {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+}
+header h2 {
+  font-size: 2.25em;
+  text-align: center;
+}
+
 main .bold {
   font-weight: bold;
+}
+
+.nyjar-viku, .staersta-voruhus {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.nyjar-viku img, .staersta-voruhus img {
+  margin-bottom: 1em;
+}
+.nyjar-viku p, .staersta-voruhus p {
+  margin-top: 1em;
+  line-height: 2em;
+}
+.nyjar-viku button, .staersta-voruhus button {
+  background: #6F4E37;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  margin: 1em auto;
 }
 
 .nyjustu-vorur, .voruurval-okkar {
@@ -120,23 +180,35 @@ main .bold {
   margin-top: 1em;
 }
 
-.staersta-voruhus {
+footer {
+  background-color: #3C2A1E;
+  padding: 1em;
+  color: #FEFEFE;
+}
+
+.foot-div {
+  margin-bottom: 3em;
+}
+.foot-div h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #FEFEFE;
+  margin-bottom: 0.5em;
+}
+.foot-div li {
+  margin-top: 0.5em;
+}
+.foot-div a {
+  color: #FEFEFE;
+}
+
+.cc {
+  font-size: 0.875em;
   display: flex;
-  flex-direction: column;
-  padding: 1em;
+  justify-content: center;
+  border-top: 1px solid #6F4E37;
 }
-.staersta-voruhus h1 {
-  margin-top: 1em;
-}
-.staersta-voruhus p {
-  margin-top: 1em;
-}
-.staersta-voruhus button {
-  background: #6F4E37;
-  border-radius: 5px;
-  color: white;
-  padding: 1em;
-  margin: 1em auto;
+.cc p {
+  padding-top: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */

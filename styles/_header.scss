@@ -1,0 +1,41 @@
+header {
+    background-image: linear-gradient(rgb(100, 100, 100), rgb(100, 100, 100)),url("../images/Background.png");
+    background-blend-mode: lighten;
+    background-size: cover;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5em;
+
+    .efst {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3em;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 1.5em;
+                margin-left: 0.5em;
+            }
+        }
+
+        .shopping {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    h1 {
+       font-size: 5em;
+       font-weight: 700; 
+       text-align: center;
+    }
+
+    h2 {
+        font-size: 2.25em;
+        text-align: center;
+    }
+}
