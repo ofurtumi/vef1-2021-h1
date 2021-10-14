@@ -7,7 +7,7 @@ header {
     flex-direction: column;
     padding-bottom: 5em;
 
-    .efst {
+    nav {
         display: flex;
         justify-content: space-between;
         margin-bottom: 3em;
@@ -25,6 +25,10 @@ header {
         .shopping {
             display: flex;
             align-items: center;
+
+            img {
+                margin-right: 0.5em;
+            }
         }
     }
 
