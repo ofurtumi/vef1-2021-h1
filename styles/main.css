@@ -214,4 +214,33 @@ footer {
   padding-top: 1em;
 }
 
+.nv-title {
+  padding: 1em;
+}
+.nv-title h1 {
+  font-size: 3.75em;
+  margin-bottom: 1em;
+}
+.nv-title p {
+  font-size: 2em;
+}
+.nv-title .nv-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+}
+.nv-title .nv-tags p {
+  width: fit-content;
+  font-size: 1.25em;
+  padding: 0.25em;
+  background: #E1CEC2;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
 /*# sourceMappingURL=main.css.map */
