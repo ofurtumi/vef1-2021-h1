@@ -78,22 +78,25 @@ header {
   flex-direction: column;
   padding-bottom: 5em;
 }
-header .efst {
+header nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
 }
-header .efst .logo {
+header nav .logo {
   display: flex;
   align-items: center;
 }
-header .efst .logo p {
+header nav .logo p {
   font-size: 1.5em;
   margin-left: 0.5em;
 }
-header .efst .shopping {
+header nav .shopping {
   display: flex;
   align-items: center;
+}
+header nav .shopping img {
+  margin-right: 0.5em;
 }
 header h1 {
   font-size: 5em;
