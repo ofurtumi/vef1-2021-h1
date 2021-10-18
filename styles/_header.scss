@@ -43,3 +43,12 @@ header {
         text-align: center;
     }
 }
+
+
+.dropdown {
+    display: none;
+}
+
+.shopping:hover ~ .dropdown {
+    display: block;
+}
