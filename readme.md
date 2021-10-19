@@ -61,11 +61,13 @@ Verkefni sett fyrir í fyrirlestri mánudaginn 4. október 2021.
 
 ## Skil
 
-Einn aðili úr hóp skal skila fyrir hönd allra og skila skal í Canvas í seinasta lagi föstudaginn 29. október.
+Tilnefna skal hópstjóra sem skráir sig í ákveðinn hóp undir „Hópverkefni 1“ í Canvas. Aðrir nemendur skrá sig í framhaldinu í sama hóp.
+
+Hópstjóri skal skila fyrir hönd allra og skila skal í Canvas í seinasta lagi föstudaginn 29. október.
 
 Skil skulu innihalda:
 
-* Nöfn allra í hóp ásamt HÍ notendanafni og GitHub notendanafni
+* GitHub notendanöfn allra (passa þarf að allir nemendur séu í hópnum!)
 * Skilaboð skulu innihalda slóð á GitHub repo fyrir verkefni, og dæmatímakennurum skal hafa verið boðið í repo ([sjá leiðbeiningar](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)). Notendanöfn þeirra eru:
   * `alli959`
   * `einarpalsson`
