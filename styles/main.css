@@ -106,6 +106,10 @@ header nav .shopping {
 header nav .shopping img {
   margin-right: 0.5em;
 }
+header nav .shopping .shopping-button {
+  background: none;
+  border: none;
+}
 header h1 {
   font-size: 5em;
   font-weight: 700;
@@ -115,12 +119,37 @@ header h2 {
   font-size: 2.25em;
   text-align: center;
 }
-
-.dropdown {
+header .dropdown {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: white;
   display: none;
+  top: 0;
+  left: 0;
+}
+header .dropdown .merki {
+  padding: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+header .dropdown .linkar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .dropdown .linkar a {
+  color: black;
+  margin-bottom: 1em;
+}
+header .dropdown .linkar input {
+  margin: auto;
+  max-width: 100%;
 }
 
-.shopping:hover ~ .dropdown {
+.shopping-button:focus ~ .dropdown, .dropdown:hover {
   display: block;
 }
 
@@ -145,7 +174,7 @@ main .bold {
   border-radius: 5px;
   color: white;
   padding: 10px 15px;
-  margin: 1em auto;
+  width: 100%;
 }
 
 .nyjustu-vorur, .voruurval-okkar {
@@ -196,6 +225,7 @@ main .bold {
   border-radius: 5px;
   height: 2.75em;
   margin-top: 1em;
+  width: 100%;
 }
 
 footer {
