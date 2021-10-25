@@ -147,6 +147,7 @@ header .dropdown .linkar a {
 header .dropdown .linkar input {
   margin: auto;
   max-width: 100%;
+  align-self: flex-end;
 }
 
 .shopping-button:focus ~ .dropdown, .dropdown:hover {
