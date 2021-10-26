@@ -4,7 +4,7 @@
     h2 {
         margin-bottom: 2em;
     }
-
+    
     .ytri {
         display: flex;
         flex-direction: column;
@@ -24,7 +24,49 @@
         }
     }
 
+    .iKorfu {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #E1CEC2;
+
+            .innra {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1em;
+
+                p {
+                    font-size: 1.25em;
+                }
+
+                img {
+                    width: 5em;
+                    height: 5em;
+                    object-fit: cover;
+                }
+                
+            }
+        }
+
+        .verd {
+            
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
     button {
+        margin-top: 1em;
         display: block;
         background: $button-border-background;
         border: $button-border-background solid 1px;
@@ -35,4 +77,12 @@
         // margin: 0 auto;
         width: auto;
     }
+}
+
+.storitakki {
+    display: none;
+}
+
+.litlitakki {
+    display: block;
 }
