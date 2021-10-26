@@ -185,6 +185,20 @@ footer {
   padding-top: 1em;
 }
 
+@media only screen and (min-width: 1000px) {
+  footer {
+    padding-top: 3em;
+  }
+
+  .footerStora {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footerStora .foot-div {
+    flex-grow: 1;
+    padding: 1em;
+  }
+}
 main .bold {
   font-weight: bold;
 }

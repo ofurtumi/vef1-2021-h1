@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1000px) {
+    footer {
+        padding-top: 3em;
+    }
+    .footerStora {
+        display: flex;
+        justify-content: space-around;
+
+        .foot-div {
+            flex-grow: 1;
+            padding: 1em;
+        }
+    }
+}
