@@ -81,12 +81,12 @@ header {
   background-image: linear-gradient(#646464, #646464), url("../images/Background.png");
   background-blend-mode: lighten;
   background-size: cover;
-  padding: 1em;
   display: flex;
   flex-direction: column;
   padding-bottom: 5em;
 }
 header nav {
+  padding: 1em;
   display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
@@ -109,6 +109,9 @@ header nav .shopping img {
 header nav .shopping .shopping-button {
   background: none;
   border: none;
+}
+header nav .shopping-stora {
+  display: none;
 }
 header h1 {
   font-size: 5em;
@@ -150,10 +153,64 @@ header .dropdown .linkar input {
   align-self: flex-end;
 }
 
+.grad1 {
+  display: none;
+}
+
 .shopping-button:focus ~ .dropdown, .dropdown:hover {
   display: block;
 }
 
+@media only screen and (min-width: 1000px) {
+  header {
+    padding-bottom: 0;
+    height: 35em;
+  }
+  header h1 {
+    font-size: 10em;
+  }
+  header nav .logo {
+    flex-grow: 5;
+  }
+  header nav .shopping {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  header nav .shopping-button {
+    display: none;
+  }
+  header nav .shopping-stora {
+    display: flex;
+    flex-grow: 5;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav .shopping-stora a {
+    display: flex;
+    flex-grow: 1;
+    color: black;
+    margin-left: 3em;
+  }
+  header nav .shopping-stora .searchStora {
+    display: flex;
+    flex-grow: 5;
+    height: 2em;
+    border: 1px black solid;
+    border-radius: 7px;
+  }
+  header .fyrirsagnir {
+    flex-grow: 2;
+  }
+  header .grad1 {
+    flex-grow: 3;
+    align-self: flex-end;
+    display: block;
+    width: 100%;
+    height: 2.5em;
+    background: none;
+    background: linear-gradient(179deg, rgba(225, 206, 194, 0) 0%, rgba(225, 206, 194, 0) 50%, #ffffff 50%, #ffffff 0%);
+  }
+}
 footer {
   background-color: #3C2A1E;
   padding: 1em;
@@ -267,6 +324,10 @@ main .bold {
   width: 100%;
 }
 
+.grad2, .grad3, .grad4, .grad5 {
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
   nav .searchStora {
     display: block;
@@ -309,6 +370,7 @@ main .bold {
   }
 
   .grad2, .grad4 {
+    display: block;
     width: 100%;
     height: 2.5em;
     background: white;
@@ -316,6 +378,7 @@ main .bold {
   }
 
   .grad3 {
+    display: block;
     width: 100%;
     height: 2.5em;
     background: white;
@@ -323,6 +386,7 @@ main .bold {
   }
 
   .grad5 {
+    display: block;
     width: 100%;
     height: 2.5em;
     background: white;
