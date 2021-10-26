@@ -1,0 +1,38 @@
+.pontun-container {
+    padding: 1em;
+
+    h2 {
+        margin-bottom: 2em;
+    }
+
+    .ytri {
+        display: flex;
+        flex-direction: column;
+        // gap: 1em;
+    
+        .stakt {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            margin: 1em 0;
+
+            input {
+                height: 2em;
+                border: 1px solid black;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    button {
+        display: block;
+        background: $button-border-background;
+        border: $button-border-background solid 1px;
+        border-radius: 5px;
+        color: white;
+        // width: fit-content;
+        padding: 10px 15px;
+        // margin: 0 auto;
+        width: auto;
+    }
+}
