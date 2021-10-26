@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1000px) {
+    .pontun-container {
+        h2 {
+            font-size: 4em;
+            margin-bottom: 0.75em;
+        }
+        h3 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.25em;
+        }
+
+
+        .fyrirflex {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2em;
+
+            
+            .kaupandi {
+                                
+                .ytri {
+                    margin-bottom: 1em;
+                    flex-direction: row;
+                    gap: 1em;
+                    
+                    .efri, .nedri {
+                        flex-grow: 1;
+                    }
+                }
+    
+            }
+            .iKorfu {
+                flex-grow: 1;
+                margin-top: 0;
+            }
+
+        }
+
+        .storitakki {
+            display: block;
+        }
+    
+        .litlitakki {
+            display: none;
+        }
+    }
+}
