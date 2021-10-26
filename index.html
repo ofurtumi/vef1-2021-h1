@@ -18,6 +18,8 @@
                 <img src="images/cart.png" alt="">
                 <button class="shopping-button"><img src="images/hamburger.png" alt=""></button>
                 
+                <input class="searchStora" type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+
                 <div class="dropdown">
                     <div class="merki">
                         <div class="logo">
@@ -33,7 +35,7 @@
                         <a href="./nyjar-vorur/"><h2>Nýjar vörur</h2></a>
                         <a href="./nyjar-vorur/"><h2>Tilboðs vörur</h2></a>
                         <a href="./nyjar-vorur/"><h2>Allar vörur</h2></a>
-                        <input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+                        <input class="hamburgerLitla" type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
                     </div>
                 </div>
             </div>
@@ -44,103 +46,121 @@
         <h2>Keyptu græjurnar hjá okkur!</h2>
     </header>
     <main>
+        <div class="grad1"></div> <!--færa grad 1 efst!-->
         <div class="nyjar-viku">
-            <h2>Nýjar vörur í <span class="bold">hverri viku</span></h2>
-            <p>Við fljúgum með nýjar vörur til landsins í hverri viku og bjóðum upp á frábært verð því lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet elementum orci, ac feugiat mauris.</p>
-            <a href="./nyjar-vorur/"><button>SKOÐA NÝJAR VÖRUR</button></a>
+            <div></div>
+            <div class="bigdiv">
+                <h2>Nýjar vörur í <span class="bold">hverri viku</span></h2>
+                <p>Við fljúgum með nýjar vörur til landsins í hverri viku og bjóðum upp á frábært verð því lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet elementum orci, ac feugiat mauris.</p>
+                <a href="./nyjar-vorur/"><button>SKOÐA NÝJAR VÖRUR</button></a>
+            </div>
+            <img class="flugvel" src="./images/flugvel.png" alt="">
+            <div></div>
         </div>
+        <div class="grad2"></div>
         <div class="nyjustu-vorur"> 
             <h2>Nokkrar af <span class="bold">nýjustu vörunum </span>okkar</h2>
-            <div class="vara-single-card">
-                <img src="/images/modurbord.png" alt="mynd af móðurborði">
-                <h3>Tæknilegt móðurborð</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Takmarkað magn</p>
+            <div class="card-holder">
+                <div class="vara-single-card">
+                    <img src="/images/modurbord.png" alt="mynd af móðurborði">
+                    <h3>Tæknilegt móðurborð</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Takmarkað magn</p>
+                    </div>
+                    <p>189.000 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>189.000 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
-                <h3>Vinalegur vinnuróbot</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir börn</p>
+                <div class="vara-single-card">
+                    <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
+                    <h3>Vinalegur vinnuróbot</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir börn</p>
+                    </div>
+                    <p>1.499.990 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>1.499.990 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/matrix.png" alt="Mynd af matrixinu">
-                <h3>Matrixið</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir róbóta</p>
+                <div class="vara-single-card">
+                    <img src="/images/matrix.png" alt="Mynd af matrixinu">
+                    <h3>Matrixið</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir róbóta</p>
+                    </div>
+                    <p>299.999.999.499.990 kr.</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>299.999.999.499.990 kr.</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
-                <h3>Vinalegur vinnuróbot</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir börn</p>
+                <div class="vara-single-card">
+                    <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
+                    <h3>Vinalegur vinnuróbot</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir börn</p>
+                    </div>
+                    <p>1.499.990 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>1.499.990 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
             </div>
         </div>
+        <div class="grad3"></div>
         <div class="staersta-voruhus">
+            <div></div>
             <img src="images/voruhus.png" alt="Mynd úr vöruhúsi">
-            <h3><span class="bold">Stærsta vöruhús</span> á Íslandi</h3>
-            <p>Vöruhúsið okkar er það stærsta á Íslandi og með fullt af vörum útum allt risus quis risus mattis sollicitudin. Donec egestas justo orci, in egestas quam molestie id. </p>
-            <a href="./nyjar-vorur/"><button>SKOÐA ALLAR VÖRUR</button></a>
+            <div class="bigdiv">
+                <h3><span class="bold">Stærsta vöruhús</span> á Íslandi</h3>
+                <p>Vöruhúsið okkar er það stærsta á Íslandi og með fullt af vörum útum allt risus quis risus mattis sollicitudin. Donec egestas justo orci, in egestas quam molestie id. </p>
+                <a href="./nyjar-vorur/"><button>SKOÐA ALLAR VÖRUR</button></a>
+            </div>
+            <div></div>
         </div>
+        <div class="grad4"></div>
         <div class="voruurval-okkar">
             <h2><span class="bold">Nokkur dæmi úr ótrúlegu vöruúrvali okkar</span></h2>
-            <div class="vara-single-card">
-                <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
-                <h3>Vinalegur vinnuróbot</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir börn</p>
+            <div class="card-holder">
+                <div class="vara-single-card">
+                    <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
+                    <h3>Vinalegur vinnuróbot</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir börn</p>
+                    </div>
+                    <p>1.499.990 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>1.499.990 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/modurbord.png" alt="mynd af móðurborði">
-                <h3>Tæknilegt móðurborð</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Takmarkað magn</p>
+                <div class="vara-single-card">
+                    <img src="/images/modurbord.png" alt="mynd af móðurborði">
+                    <h3>Tæknilegt móðurborð</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Takmarkað magn</p>
+                    </div>
+                    <p>189.000 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>189.000 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
-                <h3>Vinalegur vinnuróbot</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir börn</p>
+                <div class="vara-single-card">
+                    <img src="/images/robot.png" alt="mynd af vinalegu vélmenni">
+                    <h3>Vinalegur vinnuróbot</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir börn</p>
+                    </div>
+                    <p>1.499.990 kr</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>1.499.990 kr</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
-            </div>
-            <div class="vara-single-card">
-                <img src="/images/matrix.png" alt="Mynd af matrixinu">
-                <h3>Matrixið</h3>
-                <div class="tags">
-                    <p>Nýtt</p>
-                    <p>Ekki fyrir róbóta</p>
+                <div class="vara-single-card">
+                    <img src="/images/matrix.png" alt="Mynd af matrixinu">
+                    <h3>Matrixið</h3>
+                    <div class="tags">
+                        <p>Nýtt</p>
+                        <p>Ekki fyrir róbóta</p>
+                    </div>
+                    <p>299.999.999.499.990 kr.</p>
+                    <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
                 </div>
-                <p>299.999.999.499.990 kr.</p>
-                <a href="./vara/"><button>SETJA Í KÖRFU</button></a>
             </div>
         </div>
+        <div class="grad5"></div>
     </main>
     <footer>
         <div class="foot-div">
