@@ -41,10 +41,19 @@
         }
     }
 
+    .tilbodsvika {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     h1 {
        font-size: 5em;
        font-weight: 700; 
        text-align: center;
+    //    overflow-wrap: break-word;
+        // display: inline-block;
+
     }
 
     h2 {
