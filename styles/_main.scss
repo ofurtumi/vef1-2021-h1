@@ -19,12 +19,20 @@ main {
     }
     
     button {
+        display: block;
         background: $button-border-background;
+        border: $button-border-background solid 1px;
         border-radius: 5px;
         color: white;
         // width: fit-content;
         padding: 10px 15px;
-        width: 100%;
+        margin: 0 auto;
+        width: auto;
+        justify-self: center;
+    }
+
+    .flugvel {
+        display: none;
     }
 }
 
