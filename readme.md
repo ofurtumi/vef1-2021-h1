@@ -30,6 +30,7 @@ restin af skránum eru annaðhvort fyrir github, node eða til þess að auðvel
     > gbt6@hi.is
     > github: @Gunnarbjo
 
+
 > Selma Rán Melsteð Hlinardóttir
     > srm7@hi.is
     > github: @Selmarm
