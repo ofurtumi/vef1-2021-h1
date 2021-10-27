@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1000px) {
-    .nyjar-vorur-holder {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2em;
-    }
+  .nyjar-vorur-holder {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
