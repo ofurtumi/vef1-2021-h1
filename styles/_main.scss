@@ -71,6 +71,10 @@ main {
         margin-top: 1em;
     }
 
+    a {
+        color: black;
+    }
+
     .tags {
         display: flex;
         flex-direction: row;
@@ -95,6 +99,7 @@ main {
         height: 2.75em;
         margin-top: 1em;
         width: 100%;
+        cursor: pointer;
     }
 }
 
