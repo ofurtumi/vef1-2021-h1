@@ -1,96 +1,39 @@
-# Hópverkefni 1
+# Hópverkefni í töl-107 2021
+---
+## Hvernig á að keyra þetta?
 
-Verkefnið felst í því að smíða vef eftir forskrift.
+Keyra þarf **npm run dev** til þess að sass skránar í verkefninu breyti sér í css skrár sem lífga aðeins upp á plássið. 
+Auk þess sem hægt er að athuga hversu vel þetta scss er skrifað með því að runna **npm run lint**
 
-Gefin er [hönnun í Figma](https://www.figma.com/file/FjymA3lRoi49h83WgAccEw/Hópverkefni-1?node-id=0%3A1).
+## Uppsetning
 
-Allt efni, litir, stærði o.s.fr skal taka úr Figma skjali.
+#### html
+Vefsíðunni er skipt niður í *forsíðu* og svo þjár *undirsíður* sem eru allar inni í sínum eigin möppum. 
+Forsíðan er **index.html** í rótinni á meðan hinar eru með index síðurnar sínar í eftirfarandi möppum: **nyjar-vorur**, **pontun** og **vara**.
 
-Ekki þarf að útfæra neina virkni fyrir takka eða form.
+#### stíll
+Allar skrár sem koma nálægt því að fegra upp á síðuna er hægt að finna í **styles** möppunni. Þar er aðalskráin **styles.scss** sem sér um að importa öllum hinum *sass* skránnum og það er svo **styles.scss** sem er breytt í **main.css** þegar kallað er á **npm run dev**.
 
-Hönnunin **er ekki fullkomin** og er ósamræmi í bilum, stærðum o.þ.h. Leyfilegt er að normalísera en hægt er að spyrja spurninga um hönnun á rásinni #vef1-2021-h1.
+#### myndir
+Myndir og vektorgrafík er hægt að finna í **images** möppunniþ
 
-Gefin er desktop og mobile hönnun fyrir forsíðu, ásamt valmynd. Passa þarf upp á að vefur sé skalanlegur á milli. Fyrir aðrar síður þarf að byggja skalanleika á því hvernig forsíða skalast.
+#### annað
+restin af skránum eru annaðhvort fyrir github, node eða til þess að auðvelda það að vinna saman meðal hópsins.
 
-Allir tenglar á vöru skulu fara á eina almenna vörusíðu. Allir tenglar á setja í körfu skulu fara á pöntunarsíðu. Allir tenglar á vörulista skulu fara á eina almenna vörulista síðu.
+---
+## Meðlimir í hóp
+> Danielius Lape
+    > dal17@hi.is
+    > github: @DanieliusLape
 
-## Hópavinna
+> Gunnar Björn Þrastarsson
+    > gbt6@hi.is
+    > github: @Gunnarbjo
 
-Verkefnið skal unnið í hóp með 3-4 einstaklingum. Hafið samband við kennara ef ekki er mögulegt að vinna í hóp. Hægt er að leita að félögum á slack á rásinni #vef1-2021-h1-vantar-hop.
+> Selma Rán Melsteð Hlinardóttir
+    > srm7@hi.is
+    > github: @Selmarm
 
-Notast skal við Git og GitHub. Engar zip skrár með kóða ættu að ganga á milli í hópavinnu, heldur á að „committa“ allan kóða og vinna gegnum Git. Gert er ráð fyrir að allir meðlimir í hóp taki þátt í verkefni og séu virk á GitHub.
-
-## Verkefni
-
-### Lýsing á verkefni
-
-`README.md` skrá skal vera í rót verkefnis og innihalda:
-
-* Upplýsingar um hvernig keyra skuli verkefnið
-  * `npm run dev` eða `npm start` skal annaðhvort að vera til staðar
-  * `npm run lint` skal vera til staðar og keyra stylelint á Sass
-* Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS/Sass er skipulagt og fleira sem á við
-* Upplýsingar um alla sem unnu verkefni, nöfn, HÍ notendanöfn og GitHub notendanöfn
-
-### Tæki og tól
-
-Verkefnið skal innihalda `package.json` og `package-lock.json` sem innihalda öll notuð tól.
-
-Þegar verkefnið er sótt verður `npm install` keyrt á undan öllum öðrum skipunum.
-Setja skal upp Sass og stylelint með `stylelint-config-sass-guidelines` og `stylelint-config-standard` fyrir verkefnið.
-
-Til að passa upp á samræmi eru skrárnar `.gitignore`, `.gitattributes` og `.editorconfig` gefnar.
-
-### Hýsing
-
-Setja skal upp verkefnið á Netlify og tengja við GitHub.
-
-## Mat
-
-* 10% - `README` eftir forskrift, tæki og tól uppsett, vefur keyrir á Netilfy
-* 10% – Snyrtilegt, gilt (skv. stylelint) CSS/Sass, gilt og aðgengilegt HTML
-* 30% – Almennt útlit og skalanleiki
-* 20% – Forsíða
-* 10% – Vörulisti
-* 10% – Vörusíða
-* 10% – Pöntunarsíða
-
-## Sett fyrir
-
-Verkefni sett fyrir í fyrirlestri mánudaginn 4. október 2021.
-
-## Skil
-
-Tilnefna skal hópstjóra sem skráir sig í ákveðinn hóp undir „Hópverkefni 1“ í Canvas. Aðrir nemendur skrá sig í framhaldinu í sama hóp.
-
-Hópstjóri skal skila fyrir hönd allra og skila skal í Canvas í seinasta lagi föstudaginn 29. október.
-
-Skil skulu innihalda:
-
-* GitHub notendanöfn allra (passa þarf að allir nemendur séu í hópnum!)
-* Skilaboð skulu innihalda slóð á GitHub repo fyrir verkefni, og dæmatímakennurum skal hafa verið boðið í repo ([sjá leiðbeiningar](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)). Notendanöfn þeirra eru:
-  * `alli959`
-  * `einarpalsson`
-  * `HallurKrist`
-  * `oscar6662`
-  * `thth168`
-* Slóð á verkefnið keyrandi á Netlify
-
-## Einkunn
-
-Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samtals 40% af lokaeinkunn.
-
-Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
-
-## Myndir
-
-Myndir frá Unsplash:
-
-* <https://unsplash.com/photos/3_I4NVI9d1k>
-* <https://unsplash.com/photos/RSYBi_1fhfM>
-* <https://unsplash.com/photos/FO7JIlwjOtU>
-* <https://unsplash.com/photos/sczNLg6rrhQ>
-* <https://unsplash.com/photos/2EJCSULRwC8>
-* <https://unsplash.com/photos/Wj1D-qiOseE>
-
-> Útgáfa 0.1
+> Þorvaldur Tumi Baldursson
+    > ttb3@hi.is
+    > github: @ofurtumi

@@ -1,108 +1,112 @@
 main {
-    .bold {
-        font-weight: bold;
-    }
+  .bold {
+    font-weight: bold;
+  }
 }
 
-.nyjar-viku, .staersta-voruhus {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
+.nyjar-viku,
+.staersta-voruhus {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 
-    img{
-        margin-bottom: 1em;
-    }
+  img {
+    margin-bottom: 1em;
+  }
 
-    p {
-        margin-top: 1em;
-        line-height: 2em;
-    }
-    
-    button {
-        display: block;
-        background: $button-border-background;
-        border: $button-border-background solid 1px;
-        border-radius: 5px;
-        color: white;
-        // width: fit-content;
-        padding: 10px 15px;
-        margin: 0 auto;
-        width: auto;
-        justify-self: center;
-    }
+  p {
+    line-height: 2em;
+    margin-top: 1em;
+  }
 
-    .flugvel {
-        display: none;
-    }
+  button {
+    background: $button-border-background;
+    border: $button-border-background solid 1px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    justify-self: center;
+    margin: 0 auto;
+    // width: fit-content;
+    padding: 10px 15px;
+    width: auto;
+  }
+
+  .flugvel {
+    display: none;
+  }
 }
 
-.nyjustu-vorur, .voruurval-okkar {
-    padding: 1em;
-    background: $nyjar-vorur-bg;
+.nyjustu-vorur,
+.voruurval-okkar {
+  background: $nyjar-vorur-bg;
+  padding: 1em;
 
-    h2 {
-        margin-bottom: 1em;
-    }   
+  h2 {
+    margin-bottom: 1em;
+  }
 }
-
 
 .vara-single-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    // align-items: center;
+  // align-items: center;
 
-    
-    background: white;
-    border-radius: 5px;
-    padding: 1em;
+
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1em;
+  padding: 1em;
+
+  img {
+    aspect-ratio: 21/9;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-top: 1em;
+  }
+
+  p {
+    margin-top: 1em;
+  }
+
+  a {
+    color: black;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 1em;
 
-    img {
-        aspect-ratio: 21/9;
-        object-fit: cover;
-    }
-
-    h3 {
-        margin-top: 1em;
-    }
-
     p {
-        margin-top: 1em;
+      background: $nyjar-vorur-bg;
+      border-radius: 5px;
+      color: black;
+      font-size: 1em;
+      margin-right: 0.5em;
+      margin-top: 0;
+      padding: 0.25em;
     }
+  }
 
-    a {
-        color: black;
-    }
-
-    .tags {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-top: 1em;
-        
-        p {
-            font-size: 1em;
-            padding: 0.25em;
-            margin-right: 0.5em;
-            background: $nyjar-vorur-bg;
-            color: black;
-            border-radius: 5px;
-            margin-top: 0;
-        }
-    }
-
-    button {
-        background: white;
-        border: 1px solid $button-border-background;
-        border-radius: 5px;
-        height: 2.75em;
-        margin-top: 1em;
-        width: 100%;
-        cursor: pointer;
-    }
+  button {
+    background: white;
+    border: 1px solid $button-border-background;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2.75em;
+    margin-top: 1em;
+    width: 100%;
+  }
 }
 
-.grad2, .grad3, .grad4, .grad5 {
-    display: none;
+.grad2,
+.grad3,
+.grad4,
+.grad5 {
+  display: none;
 }
