@@ -14,6 +14,8 @@ Gefin er desktop og mobile hönnun fyrir forsíðu, ásamt valmynd. Passa þarf 
 
 Allir tenglar á vöru skulu fara á eina almenna vörusíðu. Allir tenglar á setja í körfu skulu fara á pöntunarsíðu. Allir tenglar á vörulista skulu fara á eina almenna vörulista síðu.
 
+Vefur skal vera prófaður og virka í nýjustu útgáfum af Firefox og Chrome.
+
 ## Hópavinna
 
 Verkefnið skal unnið í hóp með 3-4 einstaklingum. Hafið samband við kennara ef ekki er mögulegt að vinna í hóp. Hægt er að leita að félögum á slack á rásinni #vef1-2021-h1-vantar-hop.
