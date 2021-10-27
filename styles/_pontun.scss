@@ -79,10 +79,12 @@
     }
 }
 
-.storitakki {
-    display: none;
-}
-
-.litlitakki {
-    display: block;
+.pontun-container {
+    .storitakki {
+        display: none;
+    }
+    
+    .litlitakki {
+        display: block;
+    }
 }
