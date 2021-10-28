@@ -10,7 +10,7 @@ header {
     padding: 1em;
   }
 
-  nav .logo {
+  .logo {
     align-items: center;
     display: flex;
   }
@@ -22,7 +22,7 @@ header {
     margin-left: 0.5em;
   }
 
-  nav .shopping {
+  .shopping {
     align-items: center;
     display: flex;
   }
@@ -31,12 +31,12 @@ header {
     margin-right: 0.5em;
   }
 
-  nav .shopping-button {
+  .shopping-button {
     background: none;
     border: 0 solid #000;
   }
 
-  nav .shopping-stora {
+  .shopping-stora {
     display: none;
   }
 
