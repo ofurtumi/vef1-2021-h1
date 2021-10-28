@@ -1,1 +1,89 @@
+.taeknilegt-modurbord {
+  padding: 1em;
 
+  h2 {
+    margin-bottom: 0.5em;
+  }
+}
+
+.vara-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  margin-top: 0.25em;
+
+  p {
+    background: $nyjar-vorur-bg;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.25em;
+    width: fit-content;
+  }
+}
+
+.vara-texti {
+  margin-bottom: 0.5em;
+
+  p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+}
+
+.vara-verd {
+  align-items: center;
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+
+  span {
+    flex-grow: 1;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+
+  a {
+    flex-grow: 1;
+  }
+
+  button {
+    background: #fff;
+    border: 1px solid #e1cec2;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.875em;
+    padding: 1em;
+    width: 100%;
+  }
+}
+
+.vara-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.eiginleikar {
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 2em;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
