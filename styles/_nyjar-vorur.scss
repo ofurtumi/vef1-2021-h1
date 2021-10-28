@@ -1,0 +1,33 @@
+.nv-title {
+  padding: 1em;
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  .nv-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    margin-top: 0.25em;
+
+    p {
+      background: $nyjar-vorur-bg;
+      border-radius: 5px;
+      color: black;
+      font-size: 1.25em;
+      margin-bottom: 0.5em;
+      margin-right: 0.5em;
+      padding: 0.25em;
+      width: fit-content;
+    }
+  }
+}

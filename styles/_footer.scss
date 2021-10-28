@@ -1,0 +1,34 @@
+footer {
+  background-color: $footer-bg;
+  color: $footer-c;
+  padding: 1em;
+}
+
+.foot-div {
+  margin-bottom: 3em;
+
+  h2 {
+    border-bottom: 2px solid $footer-c;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    margin-top: 0.5em;
+  }
+
+  a {
+    color: $footer-c;
+  }
+}
+
+.cc {
+  border-top: 1px solid $button-border-background;
+  display: flex;
+  font-size: 0.875em;
+  justify-content: center;
+
+  p {
+    padding-top: 1em;
+  }
+}

@@ -1,0 +1,88 @@
+.pontun-container {
+  padding: 1em;
+
+  h2 {
+    margin-bottom: 2em;
+  }
+
+  .ytri {
+    display: flex;
+    flex-direction: column;
+    // gap: 1em;
+
+    .stakt {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      margin: 1em 0;
+
+      input {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 2em;
+      }
+    }
+  }
+
+  .iKorfu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+
+    .item {
+      align-items: center;
+      border-bottom: 1px solid #e1cec2;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+
+      .innra {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+
+        p {
+          font-size: 1.25em;
+        }
+
+        img {
+          height: 5em;
+          object-fit: cover;
+          width: 5em;
+        }
+      }
+    }
+
+    .verd {
+      align-items: center;
+      display: flex;
+      font-weight: bold;
+      justify-content: space-between;
+    }
+  }
+
+  button {
+    background: $button-border-background;
+    border: $button-border-background solid 1px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin-top: 1em;
+    // width: fit-content;
+    padding: 10px 15px;
+    // margin: 0 auto;
+    width: auto;
+  }
+}
+
+.pontun-container {
+  .storitakki {
+    display: none;
+  }
+
+  .litlitakki {
+    display: block;
+  }
+}

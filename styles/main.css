@@ -1,33 +1,110 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -35,16 +112,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -54,7 +135,8 @@ table {
   border-spacing: 0;
 }
 
-body, html {
+body,
+html {
   font-family: "Lato", sans-serif;
   font-size: 16px;
 }
@@ -85,24 +167,24 @@ header {
   padding-bottom: 5em;
 }
 header nav {
-  padding: 1em;
   display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
+  padding: 1em;
 }
 header nav .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 header nav .logo p {
-  font-size: 1.5em;
-  margin-left: 0.5em;
   color: black;
   font-family: "Lora", serif;
+  font-size: 1.5em;
+  margin-left: 0.5em;
 }
 header nav .shopping {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 header nav .shopping img {
   margin-right: 0.5em;
@@ -124,20 +206,20 @@ header h2 {
   text-align: center;
 }
 header .dropdown {
-  position: absolute;
-  width: 100%;
-  height: 50%;
   background-color: white;
   display: none;
-  top: 0;
+  height: 50%;
   left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 header .dropdown .merki {
-  padding: 1em;
-  display: flex;
   align-items: flex-start;
+  display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
+  padding: 1em;
 }
 header .dropdown .linkar {
   display: flex;
@@ -149,16 +231,17 @@ header .dropdown .linkar a {
   margin-bottom: 1em;
 }
 header .dropdown .linkar input {
+  align-self: flex-end;
   margin: auto;
   max-width: 100%;
-  align-self: flex-end;
 }
 
 .grad1 {
   display: none;
 }
 
-.shopping-button:focus ~ .dropdown, .dropdown:hover {
+.shopping-button:focus ~ .dropdown,
+.dropdown:hover {
   display: block;
 }
 
@@ -180,62 +263,62 @@ header .dropdown .linkar input {
     display: none;
   }
   header nav .shopping-stora {
+    align-items: center;
     display: flex;
     flex-grow: 5;
     justify-content: center;
-    align-items: center;
   }
   header nav .shopping-stora a {
+    color: black;
     display: flex;
     flex-grow: 1;
-    color: black;
     margin-left: 3em;
   }
   header nav .shopping-stora .searchStora {
+    border: 1px black solid;
+    border-radius: 7px;
     display: flex;
     flex-grow: 5;
     height: 2em;
-    border: 1px black solid;
-    border-radius: 7px;
   }
   header .fyrirsagnir {
     flex-grow: 2;
   }
   header .grad1 {
-    flex-grow: 3;
     align-self: flex-end;
-    display: block;
-    width: 100%;
-    height: 2.5em;
     background: none;
-    background: linear-gradient(179deg, rgba(225, 206, 194, 0) 0%, rgba(225, 206, 194, 0) 50%, #ffffff 50%, #ffffff 0%);
+    background: linear-gradient(179deg, rgba(225, 206, 194, 0) 0%, rgba(225, 206, 194, 0) 50%, #fff 50%, #fff 0%);
+    display: block;
+    flex-grow: 3;
+    height: 2.5em;
+    width: 100%;
   }
 }
 .index {
-  background-image: linear-gradient(#646464, #646464), url("../images/Background.png");
   background-blend-mode: lighten;
+  background-image: linear-gradient(#646464, #646464), url("../images/Background.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
   padding-bottom: 5em;
 }
 .index nav {
-  padding: 1em;
   display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
+  padding: 1em;
 }
 .index nav .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .index nav .logo p {
   font-size: 1.5em;
   margin-left: 0.5em;
 }
 .index nav .shopping {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .index nav .shopping img {
   margin-right: 0.5em;
@@ -249,8 +332,8 @@ header .dropdown .linkar input {
 }
 .index .tilbodsvika {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .index h1 {
   font-size: 5em;
@@ -262,20 +345,20 @@ header .dropdown .linkar input {
   text-align: center;
 }
 .index .dropdown {
-  position: absolute;
-  width: 100%;
-  height: 50%;
   background-color: white;
   display: none;
-  top: 0;
+  height: 50%;
   left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .index .dropdown .merki {
-  padding: 1em;
-  display: flex;
   align-items: flex-start;
+  display: flex;
   justify-content: space-between;
   margin-bottom: 3em;
+  padding: 1em;
 }
 .index .dropdown .linkar {
   display: flex;
@@ -287,23 +370,24 @@ header .dropdown .linkar input {
   margin-bottom: 1em;
 }
 .index .dropdown .linkar input {
+  align-self: flex-end;
   margin: auto;
   max-width: 100%;
-  align-self: flex-end;
 }
 
 .grad1 {
   display: none;
 }
 
-.shopping-button:focus ~ .dropdown, .dropdown:hover {
+.shopping-button:focus ~ .dropdown,
+.dropdown:hover {
   display: block;
 }
 
 @media only screen and (min-width: 1000px) {
   .index {
-    padding-bottom: 0;
     height: 35em;
+    padding-bottom: 0;
   }
   .index h1 {
     font-size: 10em;
@@ -319,63 +403,63 @@ header .dropdown .linkar input {
     display: none;
   }
   .index nav .shopping-stora {
+    align-items: center;
     display: flex;
     flex-grow: 5;
     justify-content: center;
-    align-items: center;
   }
   .index nav .shopping-stora a {
+    color: black;
     display: flex;
     flex-grow: 1;
-    color: black;
     margin-left: 3em;
   }
   .index nav .shopping-stora .searchStora {
+    border: 1px black solid;
+    border-radius: 7px;
     display: flex;
     flex-grow: 5;
     height: 2em;
-    border: 1px black solid;
-    border-radius: 7px;
   }
   .index .fyrirsagnir {
     flex-grow: 2;
   }
   .index .grad1 {
-    flex-grow: 3;
     align-self: flex-end;
-    display: block;
-    width: 100%;
-    height: 2.5em;
     background: none;
-    background: linear-gradient(179deg, rgba(225, 206, 194, 0) 0%, rgba(225, 206, 194, 0) 50%, #ffffff 50%, #ffffff 0%);
+    background: linear-gradient(179deg, rgba(225, 206, 194, 0) 0%, rgba(225, 206, 194, 0) 50%, #fff 50%, #fff 0%);
+    display: block;
+    flex-grow: 3;
+    height: 2.5em;
+    width: 100%;
   }
 }
 footer {
-  background-color: #3C2A1E;
+  background-color: #3c2a1e;
+  color: #fefefe;
   padding: 1em;
-  color: #FEFEFE;
 }
 
 .foot-div {
   margin-bottom: 3em;
 }
 .foot-div h2 {
+  border-bottom: 2px solid #fefefe;
   font-size: 2em;
-  border-bottom: 2px solid #FEFEFE;
   margin-bottom: 0.5em;
 }
 .foot-div li {
   margin-top: 0.5em;
 }
 .foot-div a {
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 .cc {
-  font-size: 0.875em;
+  border-top: 1px solid #6f4e37;
   display: flex;
+  font-size: 0.875em;
   justify-content: center;
-  border-top: 1px solid #6F4E37;
 }
 .cc p {
   padding-top: 1em;
@@ -399,49 +483,56 @@ main .bold {
   font-weight: bold;
 }
 
-.nyjar-viku, .staersta-voruhus {
+.nyjar-viku,
+.staersta-voruhus {
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
-.nyjar-viku img, .staersta-voruhus img {
+.nyjar-viku img,
+.staersta-voruhus img {
   margin-bottom: 1em;
 }
-.nyjar-viku p, .staersta-voruhus p {
-  margin-top: 1em;
+.nyjar-viku p,
+.staersta-voruhus p {
   line-height: 2em;
+  margin-top: 1em;
 }
-.nyjar-viku button, .staersta-voruhus button {
-  display: block;
-  background: #6F4E37;
-  border: #6F4E37 solid 1px;
+.nyjar-viku button,
+.staersta-voruhus button {
+  background: #6f4e37;
+  border: #6f4e37 solid 1px;
   border-radius: 5px;
   color: white;
-  padding: 10px 15px;
-  margin: 0 auto;
-  width: auto;
+  display: block;
   justify-self: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  width: auto;
 }
-.nyjar-viku .flugvel, .staersta-voruhus .flugvel {
+.nyjar-viku .flugvel,
+.staersta-voruhus .flugvel {
   display: none;
 }
 
-.nyjustu-vorur, .voruurval-okkar {
+.nyjustu-vorur,
+.voruurval-okkar {
+  background: #e1cec2;
   padding: 1em;
-  background: #E1CEC2;
 }
-.nyjustu-vorur h2, .voruurval-okkar h2 {
+.nyjustu-vorur h2,
+.voruurval-okkar h2 {
   margin-bottom: 1em;
 }
 
 .vara-single-card {
+  background: white;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white;
-  border-radius: 5px;
-  padding: 1em;
   margin-top: 1em;
+  padding: 1em;
 }
 .vara-single-card img {
   aspect-ratio: 21/9;
@@ -463,25 +554,28 @@ main .bold {
   margin-top: 1em;
 }
 .vara-single-card .tags p {
-  font-size: 1em;
-  padding: 0.25em;
-  margin-right: 0.5em;
-  background: #E1CEC2;
-  color: black;
+  background: #e1cec2;
   border-radius: 5px;
+  color: black;
+  font-size: 1em;
+  margin-right: 0.5em;
   margin-top: 0;
+  padding: 0.25em;
 }
 .vara-single-card button {
   background: white;
-  border: 1px solid #6F4E37;
+  border: 1px solid #6f4e37;
   border-radius: 5px;
+  cursor: pointer;
   height: 2.75em;
   margin-top: 1em;
   width: 100%;
-  cursor: pointer;
 }
 
-.grad2, .grad3, .grad4, .grad5 {
+.grad2,
+.grad3,
+.grad4,
+.grad5 {
   display: none;
 }
 
@@ -490,64 +584,75 @@ main .bold {
     display: block;
   }
 
-  .nyjar-viku, .staersta-voruhus {
-    padding: 4em 2em;
+  .nyjar-viku,
+.staersta-voruhus {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4em 2em;
   }
-  .nyjar-viku .bigdiv h2, .staersta-voruhus .bigdiv h2 {
+  .nyjar-viku .bigdiv h2,
+.staersta-voruhus .bigdiv h2 {
     margin-bottom: 1.5em;
   }
-  .nyjar-viku .bigdiv p, .staersta-voruhus .bigdiv p {
+  .nyjar-viku .bigdiv p,
+.staersta-voruhus .bigdiv p {
     font-size: 1.25em;
     margin-bottom: 1.5em;
   }
-  .nyjar-viku button, .staersta-voruhus button {
+  .nyjar-viku button,
+.staersta-voruhus button {
     display: inline-block;
-    width: auto;
-    margin: none;
     font-size: 0.875em;
+    margin: none;
+    width: auto;
   }
-  .nyjar-viku .flugvel, .nyjar-viku img, .staersta-voruhus .flugvel, .staersta-voruhus img {
+  .nyjar-viku .flugvel,
+.nyjar-viku img,
+.staersta-voruhus .flugvel,
+.staersta-voruhus img {
     aspect-ratio: 16/9;
     display: block;
   }
 
-  .nyjustu-vorur, .voruurval-okkar {
+  .nyjustu-vorur,
+.voruurval-okkar {
     padding: 4em 2em;
   }
-  .nyjustu-vorur h2, .voruurval-okkar h2 {
+  .nyjustu-vorur h2,
+.voruurval-okkar h2 {
     margin-left: 6em;
   }
-  .nyjustu-vorur .card-holder, .voruurval-okkar .card-holder {
+  .nyjustu-vorur .card-holder,
+.voruurval-okkar .card-holder {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
   }
 
-  .grad2, .grad4 {
-    display: block;
-    width: 100%;
-    height: 2.5em;
+  .grad2,
+.grad4 {
     background: white;
     background: linear-gradient(179deg, white 0%, white 50%, #e1cec2 50%, #e1cec2 100%);
+    display: block;
+    height: 2.5em;
+    width: 100%;
   }
 
   .grad3 {
-    display: block;
-    width: 100%;
-    height: 2.5em;
     background: white;
     background: linear-gradient(179deg, #e1cec2 0%, #e1cec2 50%, white 50%, white 0%);
+    display: block;
+    height: 2.5em;
+    width: 100%;
   }
 
   .grad5 {
-    display: block;
-    width: 100%;
-    height: 2.5em;
     background: white;
-    background: linear-gradient(179deg, #e1cec2 0%, #e1cec2 50%, #3C2A1E 50%, #3C2A1E 0%);
+    background: linear-gradient(179deg, #e1cec2 0%, #e1cec2 50%, #3c2a1e 50%, #3c2a1e 0%);
+    display: block;
+    height: 2.5em;
+    width: 100%;
   }
 }
 .nv-title {
@@ -562,27 +667,27 @@ main .bold {
 .nv-title .nv-tags {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 0.25em;
+  justify-content: flex-start;
   margin-bottom: 1em;
+  margin-top: 0.25em;
 }
 .nv-title .nv-tags p {
-  width: fit-content;
-  font-size: 1.25em;
-  padding: 0.25em;
-  background: #E1CEC2;
-  color: black;
+  background: #e1cec2;
   border-radius: 5px;
+  color: black;
+  font-size: 1.25em;
   margin-bottom: 0.5em;
   margin-right: 0.5em;
+  padding: 0.25em;
+  width: fit-content;
 }
 
 @media only screen and (min-width: 1000px) {
   .nyjar-vorur-holder {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .pontun-container {
@@ -602,50 +707,50 @@ main .bold {
   margin: 1em 0;
 }
 .pontun-container .ytri .stakt input {
-  height: 2em;
   border: 1px solid black;
   border-radius: 5px;
+  height: 2em;
 }
 .pontun-container .iKorfu {
-  margin-top: 1em;
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
 }
 .pontun-container .iKorfu .item {
+  align-items: center;
+  border-bottom: 1px solid #e1cec2;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 1em;
   margin-bottom: 1em;
-  border-bottom: 1px solid #E1CEC2;
+  padding-bottom: 1em;
 }
 .pontun-container .iKorfu .item .innra {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 1em;
 }
 .pontun-container .iKorfu .item .innra p {
   font-size: 1.25em;
 }
 .pontun-container .iKorfu .item .innra img {
-  width: 5em;
   height: 5em;
   object-fit: cover;
+  width: 5em;
 }
 .pontun-container .iKorfu .verd {
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
 }
 .pontun-container button {
-  margin-top: 1em;
-  display: block;
-  background: #6F4E37;
-  border: #6F4E37 solid 1px;
+  background: #6f4e37;
+  border: #6f4e37 solid 1px;
   border-radius: 5px;
   color: white;
+  display: block;
+  margin-top: 1em;
   padding: 10px 15px;
   width: auto;
 }
@@ -670,15 +775,16 @@ main .bold {
   }
   .pontun-container .fyrirflex {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 2em;
+    grid-template-columns: 1fr 1fr;
   }
   .pontun-container .fyrirflex .kaupandi .ytri {
-    margin-bottom: 1em;
     flex-direction: row;
     gap: 1em;
+    margin-bottom: 1em;
   }
-  .pontun-container .fyrirflex .kaupandi .ytri .efri, .pontun-container .fyrirflex .kaupandi .ytri .nedri {
+  .pontun-container .fyrirflex .kaupandi .ytri .efri,
+.pontun-container .fyrirflex .kaupandi .ytri .nedri {
     flex-grow: 1;
   }
   .pontun-container .fyrirflex .iKorfu {
