@@ -29,38 +29,14 @@
     flex-direction: column;
     margin-top: 1em;
   }
-}
 
-.item {
-  align-items: center;
-  border-bottom: 1px solid #e1cec2;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-}
-
-.innra {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-
-  .innra p {
-    font-size: 1.25em;
-  }
-
-  .innra img {
-    height: 5em;
-    object-fit: cover;
-    width: 5em;
-  }
-
-  .verd {
+  .item {
     align-items: center;
+    border-bottom: 1px solid #e1cec2;
     display: flex;
-    font-weight: bold;
     justify-content: space-between;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
   }
 
   button {
@@ -75,12 +51,36 @@
     // margin: 0 auto;
     width: auto;
   }
+
+  .storitakki {
+    display: none;
+  }
+
+  .litlitakki {
+    display: block;
+  }
 }
 
-.storitakki {
-  display: none;
-}
+.innra {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
 
-.litlitakki {
-  display: block;
+  .innra p {
+    font-size: 1.25em;
+  }
+
+  .pontun-img {
+    height: 5em;
+    object-fit: cover;
+    width: 5em;
+  }
+
+  .verd {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+  }
 }

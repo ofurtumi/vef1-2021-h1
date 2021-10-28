@@ -3,36 +3,6 @@
     display: block;
   }
 
-  .nyjar-viku,
-  .staersta-voruhus {
-    display: grid;
-    gap: 2em;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 4em 2em;
-  }
-
-  .bigdiv h2 {
-    margin-bottom: 1.5em;
-  }
-
-  .bigdiv p {
-    font-size: 1.25em;
-    margin-bottom: 1.5em;
-  }
-
-  button {
-    display: inline-block;
-    font-size: 0.875em;
-    margin: none;
-    width: auto;
-  }
-
-  .flugvel,
-  img {
-    aspect-ratio: 16/9;
-    display: block;
-  }
-
   .nyjustu-vorur,
   .voruurval-okkar {
     padding: 4em 2em;
@@ -45,6 +15,36 @@
       display: grid;
       gap: 2em;
       grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .nyjar-viku,
+  .staersta-voruhus {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4em 2em;
+
+    .bigdiv h2 {
+      margin-bottom: 1.5em;
+    }
+
+    .bigdiv p {
+      font-size: 1.25em;
+      margin-bottom: 1.5em;
+    }
+
+    button {
+      display: inline-block;
+      font-size: 0.875em;
+      margin: none;
+      width: auto;
+    }
+
+    .flugvel,
+    img {
+      aspect-ratio: 16/9;
+      display: block;
     }
   }
 

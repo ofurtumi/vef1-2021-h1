@@ -33,7 +33,7 @@ header {
 
   nav .shopping-button {
     background: none;
-    border: none;
+    border: 0 solid #000;
   }
 
   nav .shopping-stora {
@@ -91,8 +91,8 @@ header {
     display: none;
   }
 
-  .shopping-button:focus ~ .dropdown,
-  .dropdown:hover {
+  .dropdown:hover,
+  .shopping-button:focus ~ .dropdown {
     display: block;
   }
 }
