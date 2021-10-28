@@ -12,38 +12,35 @@
     p {
       font-size: 1.25em;
     }
+  }
 
-    .fyrirflex {
-      display: grid;
-      gap: 2em;
-      grid-template-columns: 1fr 1fr;
+  .fyrirflex {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
 
-
-      .kaupandi {
-        .ytri {
-          flex-direction: row;
-          gap: 1em;
-          margin-bottom: 1em;
-
-          .efri,
-          .nedri {
-            flex-grow: 1;
-          }
-        }
-      }
-
-      .iKorfu {
-        flex-grow: 1;
-        margin-top: 0;
-      }
+    .ytri {
+      flex-direction: row;
+      gap: 1em;
+      margin-bottom: 1em;
     }
 
-    .storitakki {
-      display: block;
+    .efri,
+    .nedri {
+      flex-grow: 1;
     }
 
-    .litlitakki {
-      display: none;
+    .i-korfu {
+      flex-grow: 1;
+      margin-top: 0;
     }
+  }
+
+  .storitakki {
+    display: block;
+  }
+
+  .litlitakki {
+    display: none;
   }
 }

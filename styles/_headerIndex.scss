@@ -11,34 +11,34 @@
     justify-content: space-between;
     margin-bottom: 3em;
     padding: 1em;
+  }
 
-    .logo {
-      align-items: center;
-      display: flex;
+  nav .logo {
+    align-items: center;
+    display: flex;
+  }
 
-      p {
-        font-size: 1.5em;
-        margin-left: 0.5em;
-      }
-    }
+  .logo p {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
 
-    .shopping {
-      align-items: center;
-      display: flex;
+  nav .shopping {
+    align-items: center;
+    display: flex;
+  }
 
-      img {
-        margin-right: 0.5em;
-      }
+  .shopping img {
+    margin-right: 0.5em;
+  }
 
-      .shopping-button {
-        background: none;
-        border: none;
-      }
-    }
+  .shopping-button {
+    background: none;
+    border: none;
+  }
 
-    .shopping-stora {
-      display: none;
-    }
+  .shopping-stora {
+    display: none;
   }
 
   .tilbodsvika {
@@ -61,7 +61,7 @@
   }
 
   .dropdown {
-    background-color: white;
+    background-color: #ffff;
     // transform: translateY(-120%);
     display: none;
     height: 50%;
@@ -69,31 +69,31 @@
     position: absolute;
     top: 0;
     width: calc(100%);
+  }
 
-    .merki {
-      align-items: flex-start;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 3em;
-      padding: 1em;
-    }
+  .dropdown .merki {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    padding: 1em;
+  }
 
-    .linkar {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+  .dropdown .linkar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-      a {
-        color: black;
-        margin-bottom: 1em;
-      }
+  .linkar a {
+    color: #000;
+    margin-bottom: 1em;
+  }
 
-      input {
-        align-self: flex-end;
-        margin: auto;
-        max-width: 100%;
-      }
-    }
+  .linkar input {
+    align-self: flex-end;
+    margin: auto;
+    max-width: 100%;
   }
 }
 
